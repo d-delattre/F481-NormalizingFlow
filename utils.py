@@ -5,8 +5,6 @@ import torch.nn.functional as F
 """
 Implementation of rational-quadratic splines in this file is taken from
 https://github.com/bayesiains/nsf.
-
-Thank you to the authors for providing well-documented source code!
 """
 
 DEFAULT_MIN_BIN_WIDTH = 1e-3
